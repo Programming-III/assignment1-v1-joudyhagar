@@ -40,8 +40,8 @@ Enclosure :: Enclosure( int c , int CC){
   }
   
 void Enclosure :: addAnimal (Animal* a){
-  int co =0
-  if (currentCount != c){
+  int co =0;
+  if (currentCount != capacity){
     currentCount ++;
   arrayA[currentCount] = a;
   }
