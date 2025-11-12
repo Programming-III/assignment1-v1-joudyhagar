@@ -36,7 +36,7 @@ Reptile :: Reptile(string n , int a , bool i , bool iv): Animal(string n , int a
   }
 
 Enclosure :: Enclosure( int c , int CC){
-  arrayA = new Animal*[c]; capacity = c ; currentCount = CC;
+  arrayA =new Animal[c]; capacity = c ; currentCount = CC;
   }
   
 void Enclosure :: addAnimal (Animal* a){
