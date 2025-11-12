@@ -7,7 +7,7 @@ using namespace std;
 class Enclosure 
 {
     private:
-        Animal*[capacity] arrayA ;
+        Animal *  arrayA ;
         int capacity;
         int currentCount;
 
